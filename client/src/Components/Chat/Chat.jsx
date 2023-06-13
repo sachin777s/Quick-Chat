@@ -9,7 +9,7 @@ import sendbtn from "../../img/send.png"
 import logo from "../../img/logo.png"
 
 let socket;
-const ENDPOINT = "http://localhost:8000"
+const ENDPOINT = "https://quick-chat-q28h.onrender.com"
 
 const Chat = () => {
 
