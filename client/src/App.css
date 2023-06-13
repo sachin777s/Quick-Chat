@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 700px) {
+
+  /* Join Page */
+
+  .joinPage {
+    align-items: flex-start !important;
+  }
+
+  .joinContainer {
+    margin-top: 40vw !important;
+    width: 100%;
+  }
+
+  .joinContainer > img {
+    width: 30vw !important;
+  }
+
+  .joinContainer > h1 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 6vw !important;
+    width: 65vw !important;
+    border-bottom: 0.2vmax solid white;
+    padding-bottom: 3vw !important;
+  }
+
+  #joinInput {
+    width: 60vw !important;
+    padding: 4vw !important;
+    font-size: 4vw !important;
+    border-radius: 5px;
+  }
+
+  .joinbtn {
+    width: 40vw !important;
+    padding: 2vw !important;
+    font-size: 4vw !important;
+  }
+
+  /* Chat Page  */
+
+  .chatContainer {
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .header {
+    width: 100%;
+    height: 3rem !important;
+    padding: 0.5rem !important;
+    position: fixed;
+    z-index: 10;
+  }
+
+  .header h2 {
+    font-size: rem !important;
+    margin: 0vw !important;
+  }
+
+  .header img {
+    margin: 1rem !important;
+    width: 2.7rem !important;
+  }
+
+  .header a img {
+    width: 1.5rem !important;
+  }
+
+  .chatBox {
+    height: 83% !important;
+    padding-top: 5rem;
+  }
+
+  .inputBox {
+    height: 3rem !important;
+    width:100% !important;
+    display: flex;
+    position: fixed !important;
+    bottom: 1rem !important;
+    align-self: center !important;
+    z-index: 10;
+  }
+
+  #chatInput {
+    padding: 5px 10px !important;
+    font-size: 6vw !important;
+  }
+
+  /* Message Component */
+
+  .messageBox {
+    width: initial !important;
+    padding: 2vw !important;
+    margin: 1vmax;
+    border-radius: 1.5vw !important;
+    font-family: "Roboto";
+  }
+
+}

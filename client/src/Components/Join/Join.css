@@ -1,0 +1,56 @@
+.joinPage {
+  background-color: #1c1818;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinContainer {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vmax;
+}
+
+.joinContainer > img {
+  width: 5vmax;
+}
+
+.joinContainer > h1 {
+  color: white;
+  font-family: "Roboto";
+  font-size: 2.5vmax;
+  width: 30vmax;
+  border-bottom: 0.2vmax solid white;
+  padding-bottom: 1vmax;
+  text-align: center;
+}
+
+#joinInput {
+  width: 28vmax;
+  padding: 0.8vmax;
+  border: none;
+  outline: none;
+  font-size: 1vmax;
+  border-radius: 5px;
+}
+
+.joinbtn {
+  width: 8vmax;
+  padding: 0.5vmax;
+  border: none;
+  font-size: 1vmax;
+  background-color: #55469b;
+  color: white;
+  font-family: "Roboto";
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.joinbtn:hover {
+  background-color: #6557a7;
+}
